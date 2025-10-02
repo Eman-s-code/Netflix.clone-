@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    background-image: url(assets/banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    top: 0;
+    opacity: 1500.75;
+    position: absolute;
+}
+nav {
+    position: relative;
+    display: flex;
+}
+
+nav img {
+    position:relative;
+    width: 256px;
+    z-index: 10;
+    opacity: 100;
+}
+
+.background {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.85;
+}
+
+.login-box {
+    background-color: rgb(0, 0, 0);
+    padding: 40px;
+    border-radius: 8px;
+    position: relative;
+    width: 300px;
+    color: white;
+    text-align: center;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+}
+
+.login-box input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    background-color: #2e2c2c;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 2px;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 12px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: large;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-box button:hover {
+    background: rgb(189, 27, 27);
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-top: 20px;
+    color: white;
+}
+
+.options a {
+    color: white;
+    text-decoration: none;
+}
+
+.code-signin {
+    margin-top: 20px;
+    font-size: 14px;
+
+
+
+}
+
+.code-signin span {
+    display: block;
+    margin-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+.code-signin a {
+    color: white;
+    text-decoration: none;
+    background: #262424;
+    width: 90px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.code-signin a:hover {
+    background: #343131;
+}
